@@ -11,7 +11,11 @@ export default function Artists() {
     })
 
     function expandBox(id) {
+      if (expand !== id) {
         setExpand(prevExpand => !prevExpand === id ? null : id)
+      } else {
+        setExpand(null)
+      }
     }
 
 
