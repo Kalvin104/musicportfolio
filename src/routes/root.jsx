@@ -14,7 +14,7 @@ export default function root() {
         <Nav />
         <Outlet />
     </div>
-    <Footer />
+    {/* <Footer /> */}
     </>
   )
 }

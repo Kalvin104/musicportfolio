@@ -52,7 +52,7 @@ export default function Artists() {
         {expand && (
             <div>TEST</div>
         )
-        
+
         }
       </div>
   )
