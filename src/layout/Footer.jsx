@@ -1,4 +1,5 @@
 import React from 'react'
+import Socials from '../components/Socials'
 
 function Footer() {
   return (
@@ -10,6 +11,7 @@ function Footer() {
         <br></br>
         <a href='https://www.instagram.com/beanobeans/' target='_blank'>James Wickham</a>
       </div>
+      
     </footer>
   )
 }
